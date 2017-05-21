@@ -54,7 +54,7 @@ Use
     memcache.client.set('foo', 'bar')
 
 """
-from __future__ import absolute_import, division, print_function
+
 import flask
 import pymemcache.client
 import pymemcache.client.hash
